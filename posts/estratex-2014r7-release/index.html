@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title> eStratEx 2014R7 release. &middot; Born2Code musings  </title>
+	
+	<link rel="stylesheet" href="http://abualsamid.github.io//css/reset.css">
+	<link rel="stylesheet" href="http://abualsamid.github.io//css/text.css">
+	<link rel="stylesheet" href="http://abualsamid.github.io//css/color.css">
+	<link rel="stylesheet" href="http://abualsamid.github.io//css/layout.css">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abualsamid.github.io//apple-touch-icon-144-precomposed.png">
+	<link rel="shortcut icon" href="http://abualsamid.github.io//favicon.ico">
+	
+	<link href="" rel="alternate" type="application/rss+xml" title="Born2Code musings " />
+</head>
+
+	<body>
+		<header>
+  <h1><a href="http://abualsamid.github.io/">Born2Code musings </a></h1>
+  <p></p>
+</header>
+
+		<nav>
+	<ul>
+	
+</ul>
+
+
+</nav>
+
+
+		<main>
+			<header>
+				<h1>eStratEx 2014R7 release.</h1>
+			</header>
+			
+			<article>
+				<p>The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.</p>
+
+<p>As you may know the eStratEx stack is built on a MySQL back-end running on Ubuntu. We use Percona MySQL and not just because Percona is a client, as we used them before they became a client, but because of its superior performance.</p>
+
+<p>The data access layer and the business layer are written in .NET, specifically VB.NET and C#. They currently run on II7 deployed on Windows 2008R2 but with the recent decisions of Microsoft to open up .NET and to make it truly cross platform we may be running it on Ubuntu in the future.</p>
+
+<p>The front end is written using HTML, Javascript, CSS. We hand crafted a lot of our front end code with jQuery being the main library we typically used in our system. As of this release we are starting to use Bootstrap V3 for eStratEx.</p>
+
+<p><a href="http://blog.abualsamid.com/wp-content/uploads/2014/12/eStratEx-Login.png"><img src="http://blog.abualsamid.com/wp-content/uploads/2014/12/eStratEx-Login-300x142.png" alt="eStratEx Login" />
+</a></p>
+
+<p>This will allow us to provide a crisp, modern, refresh to our user interface. It will also allow us to focus on Mobile First strategy, where each aspect of our application is meant to run beautifully in your favorite mobile device. After some debate we chose this approach over releasing a handicapped, limited app providing minimal functionality to our users as have been adopted by others.</p>
+
+<p>In conjunction with our <a href="http://getbootstrap.com/">Bootstrap v3</a> change we have switched to using <a href="http://knockoutjs.com/">Knockout v3</a>. We have used knockout in the past on few admin pages but now we are fully embracing the Model-View-View Model (MVVM) pattern across the application. Our front end and middle layers are now very similar to what Microsoft is doing with their <a href="http://azure.microsoft.com/">Azure</a> portal.  When we started eStratEx however ASP.NET MVC was a very nascent technology and thus we went with class asp.net web forms. Two million lines of code later we are not about to re-do our system in MVC. However, all the neat stuff Microsoft is doing for web forms is making that a moot point. We are using Friendly URLs, as <a href="http://www.hanselman.com/blog/IntroducingASPNETFriendlyUrlsCleanerURLsEasierRoutingAndMobileViewsForASPNETWebForms.aspx">described</a> by Microsoft&rsquo;s Scott Hanselman (<a href="https://twitter.com/shanselman">@shanselman</a>), and URL routing to build out MVC style interface using web forms. Microsoft has a vision for a unified ASP.NET and we are capitalizing on that fully.</p>
+
+<p>As soon as you login to the application you will start to notice the new changes made possible via combining the best of knockout, bootstrap, .Net and MySQL.</p>
+
+<p>cross posted on stratex.com/blog</p>
+
+			</article>
+			<footer>
+				<p><span id="footer-copyright"></span><span id="footer-license"></span></p>
+			</footer>
+		</main>
+		<footer>
+  <p></p>
+</footer>
+
+	</body>
+</html>

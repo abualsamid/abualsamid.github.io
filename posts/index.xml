@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Born2Code musings </title>
+    <link>http://abualsamid.github.io/posts/</link>
+    <description>Recent content in Posts on Born2Code musings </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Jan 2015 14:39:17 +0000</lastBuildDate>
+    <atom:link href="http://abualsamid.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Zero Friction</title>
+      <link>http://abualsamid.github.io/posts/zero-friction/</link>
+      <pubDate>Wed, 28 Jan 2015 14:39:17 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/zero-friction/</guid>
+      <description>&lt;p&gt;I have been thinking lately about how to quantify what differentiates my company and offering from competitors like ADP and zenefits.&lt;/p&gt;
+
+&lt;p&gt;There are the obvious answers, we have a complete, integrated, single-database, single-system, end to end solution. We have, according to our clients, the best personable customer service. We have, in my view, the best software application in the industry. This is all good, but not enough. I mean I hope everybody in our industry strives to have great customer service and continues to update and innovate on the software front. I would consider that a minimum baseline and not a distinguishing feature, not a company identity.&lt;/p&gt;
+
+&lt;p&gt;While I am pondering those thoughts in my head I saw a beautiful UltraHD 70&amp;rdquo; Vizio t.v. at Costco, selling for a good price.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;attachment_28&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-1.jpg&#34;&gt;&lt;img src=&#34;http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-1-300x225.jpg&#34; alt=&#34;my gorgeous t.v.&#34; /&gt;
+&lt;/a&gt; my beautiful new t.v.[/caption]&lt;/p&gt;
+
+&lt;p&gt;I went home and found out that Costco.com had a special on it for $500. The initial warehouse price already matched Amazon&amp;rsquo;s, so with the $500 off it became a no brainer and I purchased one, delivered to the comfort of my home.&lt;/p&gt;
+
+&lt;p&gt;Then when I was setting it up, I saw that it came with two bags of screws, each with four screws, identical color, almost identical size and look. The screws are used to assemble the stand and to attach the stand to the back of the t.v.  One set was used to assemble the stand and the other set to attach it to the t.v.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender.jpg&#34;&gt;&lt;img src=&#34;http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-300x225.jpg&#34; alt=&#34;screws&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So far so good, i cannot visually tell the screws apart, but they are different sizes according to the caption. So i reached out to the bags of screws and the only thing printed on the plastic bags was a sequence of digits, a product number maybe, with nothing significant as far as telling me which is the 20 mm and which is the 23 mm screws. So I took a gamble and chose the screws that looked a tiny bit larger as the 23 mm screws. I installed it, and of course i had picked the wrong set. So I had to start over and swap them. Not a big deal, just added few more minutes to the installation time.&lt;/p&gt;
+
+&lt;p&gt;Then it hit me. That&amp;rsquo;s what differentiates us from everybody else. Ever since we started on this journey back in 2008 our goal was to create a zero friction experience for our users.  When deciding between printing a random set of numbers on a bag of screws or clearly identifying the bag as &amp;ldquo;M5 de 20 mm&amp;rdquo; we always chose the latter. When deciding between telling our clients to reach support via automated, cumbersome, systems or assigning them a real live person they know by name, email and direct phone number, we chose the latter. We never had an automated, maze-like, drive me crazy, support system, and we never will. When choosing between cubicles, opaque walls, or open office environment we chose the latter. When choosing between trying to integrate separate payroll, HR, benefits, Applicant Tracking, performance review, time keeping systems and building a kick ass, fully integrated, cohesive, single source, single database, system, we chose the latter.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, every Spring, when we sit down and ponder the next set of innovations that we will tackle over the upcoming year, we always base it on what provides our clients a zero fiction experience. Every time we look at something and have to decide between making it simpler, easier, more natural for the client to use, vs. developing it faster, cheaper, easier, we always chose the former. We always chose to provide a zero friction environment to our clients. We want the software to enable their productivity not to limit it or slow it down.&lt;/p&gt;
+
+&lt;p&gt;Are we perfect? of course not. The minute we start thinking that we succeeded in delivering the zero friction experience is the minute we fail. We have a long way to go. We will always have a long way to go. We will never achieve perfection, but that will not deter us from always chasing it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google App Engine, AngularJS and Go</title>
+      <link>http://abualsamid.github.io/posts/google-app-engine-angularjs-and-go/</link>
+      <pubDate>Sun, 21 Dec 2014 21:45:18 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/google-app-engine-angularjs-and-go/</guid>
+      <description>&lt;p&gt;I am an AWS fanboy, a member of the Amazon Partner Network, certified AWS architect, certified AWS developer and most importantly run a multi-million business on AWS. I try to keep up with everything new from AWS, attend every re:Invent and try out most new things while they are still in preview.&lt;/p&gt;
+
+&lt;p&gt;None the less, all those cool podcasts from &lt;a href=&#34;https://twitter.com/shanselman&#34;&gt;Scott Hanselman&lt;/a&gt; about easy deployments to the Azure Platform as a Service piqued my curiosity. He whips together few lines of code and then uses cli tools to fire up an Azure app. So I wanted to try few things out for myself. I have been wanting to write an AngularJS app for a while. Recently I have mentioned wanting to possibly switch from Node for our ancillary projects to Go. So why not write a Go+Angular app and deploy it on a PaaS provider to get a feel for how all those things work together.&lt;/p&gt;
+
+&lt;p&gt;Scott’s Azure’s podcasts is what started me thinking about all of this, but I am going to defer trying out Azure for later. I &lt;a href=&#34;http://blog.abualsamid.com/2014/12/out-with-the-old/&#34;&gt;grow up&lt;/a&gt; in the Microsoft eco system and have seen my fair share of their awesome demos starting with the initial ASP 1.0 “zero lines of code demo”. I have been bitten enough times by .NET, Visual Studio, Windows Update that I know how much productivity can be wasted once you get past the simple demo. Our front end and middle layers are all developed in .NET, mainly Visual C#, VB.NET and knockout. So I do not feel that simply extending my domain to Azure is challenging enough. Sure, one day, soon, I will be pushing out some apps to Azure, but not today. I have not even bothered to check if Azure supports Go.&lt;/p&gt;
+
+&lt;p&gt;I have tried Heroku in the past and I admire their story a ton. Orion Henry’s talk at &lt;a href=&#34;https://hacksummit.org/live/1GSWPUYHQ&#34;&gt;Hacksummit&lt;/a&gt; was one of faves. None the less, being acquired by Salesforce and running on AWS (which i am already very familiar with) makes it less appealing to me. Joyent is another interesting possibility. However the recent &lt;a href=&#34;http://blog.abualsamid.com/2014/12/hello-world/&#34;&gt;rift in the node&lt;/a&gt; community gives me a pause. &lt;/p&gt;
+
+&lt;p&gt;Thus, I settled on the Google App Engine. There are other PaaS providers out there, but really if you are not an AWS, Azure, GAE, Heroku or Joyent I am not sure I want to hitch by wagon to you. Rackspace is interesting, I used to run a business on Rackspace and their fanatical service is amazing. However, there is nothing unique about their offering to pull me there. Thus, Google App Engine it is.&lt;/p&gt;
+
+&lt;p&gt;The challenge though is I have not done anything with Angular, Go or GAE, so where does one start? For Angular, I started with the &lt;a href=&#34;https://github.com/angular/angular-seed&#34;&gt;Angular Seed project&lt;/a&gt;. It is a starter project for Angular put together by the Angular team so it is as good a place to start as any. I forked it on Github, cloned it on my Mac and started toying with it. After a few commands using Bower I had the app up and running, no issues.&lt;/p&gt;
+
+&lt;p&gt;Poking around the Internet I found out that people prefer the Angular ui router to ngRoute so I switched ngRoute out for the &lt;a href=&#34;http://angular-ui.github.io/#ui-router&#34;&gt;ui router.&lt;/a&gt; After updating the code to use the ui router’s way of doing things I was up and running again, so far so good. My UX skills suck, so I decided to use Bootstrap to do the heavy lifting on that front. &lt;/p&gt;
+
+&lt;p&gt;I added a reference to the bootstrap css from their CDN, that was easy, but what do we do about the jQuery dependency and bootstrap’s own js files? Would they play well with Angular? After more poking around I ran into the &lt;a href=&#34;http://angular-ui.github.io/bootstrap/&#34;&gt;Angular UI bootstrap project&lt;/a&gt; So I decided to use that instead of trying to figure out things on my own. The less work I do as far as infrastructure and frameworks the better.&lt;/p&gt;
+
+&lt;p&gt;So, now I have a skeleton Angular JS project, complete with advanced routing using ui router and bootstrap using the Angular UI bootstrap project, and it is &lt;a href=&#34;https://github.com/abualsamid/livememories&#34;&gt;hosted on Github&lt;/a&gt; with a dev copy on my Mac. Sweet, but what about Go? I started at the &lt;a href=&#34;https://cloud.google.com/appengine/docs/go/&#34;&gt;GAE’s Go page&lt;/a&gt;. I downloaded the SDK and installed it, everything went well with no issues, just followed the instructions. &lt;/p&gt;
+
+&lt;p&gt;I played around with the sample guest book app that comes with the SDK. I ran it locally, it ran nicely. I then pushed it to the GAE and again it deployed without hitch. In few minutes I was viewing my deployed app online. It is my understanding that GAE uses LXC (Linux Containers) for the deployment which explains why it only takes few moments to spin the app up. The Sandbox environment that comes with the SDK and the GAE deployments are very impressive. I have not done anything but follow the samples thus far, but so far I am very impressed with how all of this works.&lt;/p&gt;
+
+&lt;p&gt;So now I have a skeleton Angular App, a skeleton go app, and a working setup for the GAE deployment but how do I get the Angular app to talk to the Go app? I could not find much on how to structure the app in this case. After a lot of toying around with it, I discovered that I do not need any Go source code in the root of the project folder for GAE to work.&lt;/p&gt;
+
+&lt;p&gt;So I ended up creating a src folder inside the AngularJS project, sibling to the app folder. The GO code goes inside the src folder and the Angular code stays inside the app folder, config files sit in the root folder, and we are all good.&lt;/p&gt;
+
+&lt;p&gt;Then it was just a matter of configuring the app.yaml to let the GAE know where everything is and how to server the AnguarJS files. &lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; application: second-core-800  
+version: 1  
+runtime: go  
+api_version: go1
+&gt; 
+&gt; 
+
+&gt; 
+&gt; default_expiration: &#34;10m&#34;
+&gt; 
+&gt; 
+
+&gt; 
+&gt; skip_files:  
+- ^(.*/)?#.*#$  
+- ^(.*/)?.*~$  
+- ^(.*/)?.*\.py[co]$  
+- ^(.*/)?.*/RCS/.*$  
+- ^(.*/)?\..*$  
+- ^(.*/)?\.bak$  
+- node_modules
+&gt; 
+&gt; 
+
+&gt; 
+&gt; handlers:
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: /favicon\.ico   
+static_files: favicon.ico   
+upload: favicon\.ico
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: /api/.*  
+script: _go_app
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: (.*)/  
+static_files: app\1/index.html  
+upload: app/index\.html  
+mime_type: text/html; charset=utf-8
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: (/.*\.css)  
+static_files: app\1  
+upload: app/.*\.css  
+mime_type: text/css; charset=utf-8
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: (/.*\.html)  
+static_files: app\1  
+upload: app/.*\.html  
+mime_type: text/html; charset=utf-8
+&gt; 
+&gt; 
+
+&gt; 
+&gt; - url: (/.*\.js)  
+static_files: app\1  
+upload: app/.*\.js  
+mime_type: text/javascript; charset=utf-8
+&gt; 
+&gt; 
+
+&gt; 
+&gt;  
+&gt; 
+&gt; 
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;This worked great, I can navigate directly to my app, or to index.html and I will get Angular firing up instead of the Go Handler. The trick is to configure the handlers section of the config file and the upload stanza to let GAE know which static files to upload. For good measure added node_modules to the skip file section as those are only used to run the Angular Seed project and now I am using the GAE dev server to do that.&lt;/p&gt;
+
+&lt;p&gt;To route to the GO REST api I created a /api mapping in the config file as shown above. The GAE does not need any GO source files to be in the root folder, so that should’ve worked, but it did not.&lt;/p&gt;
+
+&lt;p&gt;My confusing stemmed from the way the GAE deploys my files. The documentation clearly states that the static files (my Angular) and the GO files go into separate places. I am not sure where  that is, but my guess is that the GO code goes into a LXC container and the static files are served from a virtual directory off a massive Apache or nginx server. So I was not sure how routing would work knowing that they are being split into separate locations?&lt;/p&gt;
+
+&lt;p&gt;Well, it turns out that once I configured my app.yaml to route GO requests to /api all I had is to handle that route in my Go code:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; http.HandleFunc(&#34;/api/greeting&#34;, greeting)
+&gt; 
+&gt; 
+&lt;/blockquote&gt;
+
+&lt;p&gt; And that’s it. It worked. Now I can do something like this in Angular and it just works:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; .controller(&#39;Hello&#39;, [&#34;$scope&#34;,&#34;$http&#34;,function($scope, $http) {  
+  $http  
+  .get(&#39;/api/greeting&#39;)  
+  .success(function(data) {  
+    $scope.greeting=data;  
+  })  
+}]);
+&gt; 
+&gt; 
+&lt;/blockquote&gt;
+
+&lt;p&gt;The app does not do much yet, but it runs on GAE, fires up an Angular app, talks to a Go REST api and it all works well.&lt;/p&gt;
+
+&lt;p&gt;Now, my pattern for coding would be to &lt;/p&gt;
+
+&lt;p&gt;1) code, code, code.&lt;/p&gt;
+
+&lt;p&gt;2) git add .&lt;/p&gt;
+
+&lt;p&gt;3) git commit -a&lt;/p&gt;
+
+&lt;p&gt;4) git push origin&lt;/p&gt;
+
+&lt;p&gt;5) goapp deploy&lt;/p&gt;
+
+&lt;p&gt;and I will have my source code committed to GitHub and my app updated on GAE. Sweet&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Out with the Old</title>
+      <link>http://abualsamid.github.io/posts/out-with-the-old/</link>
+      <pubDate>Thu, 18 Dec 2014 01:22:38 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/out-with-the-old/</guid>
+      <description>&lt;p&gt;Growing up a nerd in the Middle East I was fond of two things: Soccer and Reading. As a pre-teen I read all the time, I had a book in my hand in the car, walking home from school, in bed, eating dinner, in class — hidden inside my textbooks —, and on the soccer field; so i can read a little bit while the ball was on the other side of the field.&lt;/p&gt;
+
+&lt;p&gt;It was not really a field, more like a sandy gray space, and there was no soccer ball. Most of the time it was an empty can of pepsi. Sometimes it was a bunch of old socks rolled up together. When we got lucky we played with a left over tennis ball. It did not matter, we chased after it, and when it was beyond my reach, i just flipped open my book and continued reading. I read anything I can lay my hands on, history, fiction, comics… Around the age of nine my dad bought an encyclopedia, so at home, I started reading the encyclopedia whenever I could.&lt;/p&gt;
+
+&lt;p&gt;That all changed around the age of 12, in the early 80s. My late dad, heard of something called a computer. They were showing it off at the Holiday Inn in downtown. We went there, and I came home with a pricey &lt;a href=&#34;http://en.wikipedia.org/wiki/ZX_Spectrum&#34;&gt;Sinclair ZX Spectrum&lt;/a&gt;. It had just been released in the UK shortly before that and it changed my life forever.&lt;/p&gt;
+
+&lt;p&gt;Instead of watching t.v. in the evening — we did not have 24 hour television back then, broadcast started at 5:30 p.m. —I started playing with my computer. It had no screen, so I hooked it up to our t.v. for display. It had no storage, so it had to be hooked up to a cassette player. It had a basic version of BASIC language on it and so I learned how to program. I wrote games and my younger &lt;a href=&#34;http://orangehabitat.blogspot.com/&#34;&gt;brother&lt;/a&gt; turned it into a piano and played music on its keyboard. The Sinclair ZX changed my life.&lt;/p&gt;
+
+&lt;p&gt;Couple of years later, a philanthropist, running a foundation named after his &lt;a href=&#34;http://www.shoman.org/en/content/abdul-hameed-shoman-1890-1974&#34;&gt;grandfather&lt;/a&gt; opened a center for children to learn computers. It was a small room, with only 4 computers, IBM PCs running Microsoft DOS. There was no membership fee. The only expectation is that if you end up learning something useful you were going to pay it back by teaching somebody else something useful. It was a cooperative, teenagers teaching teenagers. Exactly like the great &lt;a href=&#34;https://www.youtube.com/watch?v=zpcEpmNbHds&#34;&gt;Sugata Mitra&lt;/a&gt; implemented decades later. I programmed in C and Turbo Pascal, my heroes were &lt;a href=&#34;http://www-cs-faculty.stanford.edu/~uno/&#34;&gt;Knuth&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Peter_Norton&#34;&gt;Norton&lt;/a&gt;, Gates and Jobs.&lt;/p&gt;
+
+&lt;p&gt;My dad then spent two month salary on buying me my own PC. A a very expensive &lt;a href=&#34;http://www.pcmuseum.ca/details.asp?id=696&#34;&gt;Cordata PC&lt;/a&gt;. With a 20MB hard drive, I was King of the World. I dove into assembly and started reverse engineering command.com and every piece of software I could get hold of. I lived in Norton Utilities and MS DOS.&lt;/p&gt;
+
+&lt;p&gt;At 17, I built and sold my first commercial software, an inventory system written in Turbo Pascal and running on DOS 3.0. Sold to &lt;a href=&#34;http://www.petra-eng.com/&#34;&gt;http://www.petra-eng.com/&lt;/a&gt; and I started consulting and making money off programming.&lt;/p&gt;
+
+&lt;p&gt;Today, I am dropping support for old versions of Internet Explorer in our &lt;a href=&#34;https://estratex.com&#34;&gt;flagship software&lt;/a&gt;. We are going to match &lt;a href=&#34;http://googleappsupdates.blogspot.com/2013/11/end-of-support-for-internet-explorer-9.html&#34;&gt;Google’s Policy&lt;/a&gt; in supporting the most recent two major releases of IE, a full year after Google did so and more than a year after Microsoft released IE 11. It is also 4 months after Microsoft itself announced &lt;a href=&#34;http://blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx&#34;&gt;dropping support&lt;/a&gt; for older versions of IE and encouraging users to stay up to date on the most recent version of the browser.&lt;/p&gt;
+
+&lt;p&gt;I was raised in the Microsoft eco system. Writing a virus affecting command.com as a teenager was a proud moment, only eclipsed by working on one of the earliest anti virus software shortly after that. We are not dropping support because we are anti Microsoft, or anti Windows, or anti IE. We are dropping support because we want you have to modern, crisp, beautiful experience using our software with the latest version of Internet Explorer.&lt;/p&gt;
+
+&lt;p&gt;So out with the old (browsers) and in with the latest versions of IE, Chrome, Safari and FireFox.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>eStratEx 2014R7 release.</title>
+      <link>http://abualsamid.github.io/posts/estratex-2014r7-release/</link>
+      <pubDate>Sat, 13 Dec 2014 22:31:22 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/estratex-2014r7-release/</guid>
+      <description>&lt;p&gt;The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.&lt;/p&gt;
+
+&lt;p&gt;As you may know the eStratEx stack is built on a MySQL back-end running on Ubuntu. We use Percona MySQL and not just because Percona is a client, as we used them before they became a client, but because of its superior performance.&lt;/p&gt;
+
+&lt;p&gt;The data access layer and the business layer are written in .NET, specifically VB.NET and C#. They currently run on II7 deployed on Windows 2008R2 but with the recent decisions of Microsoft to open up .NET and to make it truly cross platform we may be running it on Ubuntu in the future.&lt;/p&gt;
+
+&lt;p&gt;The front end is written using HTML, Javascript, CSS. We hand crafted a lot of our front end code with jQuery being the main library we typically used in our system. As of this release we are starting to use Bootstrap V3 for eStratEx.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/eStratEx-Login.png&#34;&gt;&lt;img src=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/eStratEx-Login-300x142.png&#34; alt=&#34;eStratEx Login&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This will allow us to provide a crisp, modern, refresh to our user interface. It will also allow us to focus on Mobile First strategy, where each aspect of our application is meant to run beautifully in your favorite mobile device. After some debate we chose this approach over releasing a handicapped, limited app providing minimal functionality to our users as have been adopted by others.&lt;/p&gt;
+
+&lt;p&gt;In conjunction with our &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap v3&lt;/a&gt; change we have switched to using &lt;a href=&#34;http://knockoutjs.com/&#34;&gt;Knockout v3&lt;/a&gt;. We have used knockout in the past on few admin pages but now we are fully embracing the Model-View-View Model (MVVM) pattern across the application. Our front end and middle layers are now very similar to what Microsoft is doing with their &lt;a href=&#34;http://azure.microsoft.com/&#34;&gt;Azure&lt;/a&gt; portal.  When we started eStratEx however ASP.NET MVC was a very nascent technology and thus we went with class asp.net web forms. Two million lines of code later we are not about to re-do our system in MVC. However, all the neat stuff Microsoft is doing for web forms is making that a moot point. We are using Friendly URLs, as &lt;a href=&#34;http://www.hanselman.com/blog/IntroducingASPNETFriendlyUrlsCleanerURLsEasierRoutingAndMobileViewsForASPNETWebForms.aspx&#34;&gt;described&lt;/a&gt; by Microsoft&amp;rsquo;s Scott Hanselman (&lt;a href=&#34;https://twitter.com/shanselman&#34;&gt;@shanselman&lt;/a&gt;), and URL routing to build out MVC style interface using web forms. Microsoft has a vision for a unified ASP.NET and we are capitalizing on that fully.&lt;/p&gt;
+
+&lt;p&gt;As soon as you login to the application you will start to notice the new changes made possible via combining the best of knockout, bootstrap, .Net and MySQL.&lt;/p&gt;
+
+&lt;p&gt;cross posted on stratex.com/blog&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our StratEx Family</title>
+      <link>http://abualsamid.github.io/posts/our-stratex-family/</link>
+      <pubDate>Fri, 12 Dec 2014 01:16:16 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/our-stratex-family/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/B4nGk0PIMAE5yJq.jpg&#34;&gt;&lt;img src=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/B4nGk0PIMAE5yJq-300x225.jpg&#34; alt=&#34;B4nGk0PIMAE5yJq&#34; /&gt;
+&lt;/a&gt; Our &lt;a href=&#34;http://stratex.com&#34;&gt;StratEx&lt;/a&gt; family is spread out over half a dozen offices in six states. As such, we do not always get to see each other. Thus we make it a tradition that once a year everybody in the StratEx family gets together at our flagship office on beautiful Michigan Avenue for our annual Holiday Party.&lt;/p&gt;
+
+&lt;p&gt;The office sits on the 28th floor in a skyscraper in the middle of Michigan Avenue. The first skyscraper was built in Chicago after all, so it is apropos that we pay homage to our hometown and reside in one. The views are majestic day or night, overlooking the endless Lake Michigan or the car lights fading, seemingly endlessly, into the night. It is all gorgeous.&lt;/p&gt;
+
+&lt;p&gt;Years ago our holiday party included clients and partners. As we grew and our wings spread and our offices reached the farthest ends of our beautiful land, from sea to shining sea, we decided our StratEx family needed more &amp;ldquo;us&amp;rdquo; time to get to know each other better. Now a days we celebrate the holidays with our family, our loved ones and the occasional StratEx alumni that misses the vibe and wants to join in the festivities.&lt;/p&gt;
+
+&lt;p&gt;We celebrate the end of one year, we look forward to the start of another, most importantly, we celebrate each other.&lt;/p&gt;
+
+&lt;p&gt;Cheers my friends, my colleagues, my StratEx family.&lt;/p&gt;
+
+&lt;p&gt;cross posted on &lt;a href=&#34;http://stratex.com/blog&#34;&gt;http://stratex.com/blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>To Node or to Go</title>
+      <link>http://abualsamid.github.io/posts/hello-world/</link>
+      <pubDate>Thu, 11 Dec 2014 01:20:02 +0000</pubDate>
+      
+      <guid>http://abualsamid.github.io/posts/hello-world/</guid>
+      <description>&lt;p&gt;The recent news of &lt;a href=&#34;http://www.wired.com/2014/12/io-js/&#34;&gt;trouble in node&lt;/a&gt; land is unsettling. Nodejs is am amazing technology with a big following. Companies such as Linked-In bought into it from the early beginning. Microsoft is making it a first class citizen in the Visual Studio eco system. AWS just launched a new &lt;a href=&#34;http://aws.amazon.com/lambda/&#34;&gt;service&lt;/a&gt; based on node, and has a great sdk for it. &lt;a href=&#34;http://www.joyent.com/&#34;&gt;Joyent&lt;/a&gt; has embraced it from the get go and is now the corporate sponsor.  This is just a small set of nodejs related projects and companies, the list is huge.&lt;/p&gt;
+
+&lt;p&gt;We use nodejs for our home grown development tracking and management system and we are currently in the process of building out micro services to support our ever growing &lt;a href=&#34;http://www.estratex.com/&#34;&gt;SaaS offering&lt;/a&gt;. Up till now the plan was to build out those micro services in nodejs. Now, being micro services, they do not really need to be all written in a single language. Especially those days with &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt; taking over the world, it is very easy to develop different services in different technologies.&lt;/p&gt;
+
+&lt;p&gt;None the less, we would like to know that we have a goto option for a micro service build out, that we made a strategic decision to commit to a direction. Up till few days ago, that direction was Nodejs.&lt;/p&gt;
+
+&lt;p&gt;We have not changed our minds yet, Nodejs is not going away, and it still supported by a strong backer and if good things happen the rift will be healed and the community will come back together and keep pushing it forward.&lt;/p&gt;
+
+&lt;p&gt;However, we are now considering other options. One of the things that we have considered seriously is Google&amp;rsquo;s &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;. It is a beautiful language, statically linked, so it is perfect for Docker deployment. It is supported by Google and has a ton of packages. What it does not have, yet, is an official AWS SDK from Amazon. That&amp;rsquo;s really the main reason that tilted the scale in favor of nodejs, up till now.&lt;/p&gt;
+
+&lt;p&gt;Now, it is decision time, to Node || to Go&lt;/p&gt;
+
+&lt;p&gt;cross blogged on &lt;a href=&#34;http://stratex.com/blog&#34;&gt;stratex.com/blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
