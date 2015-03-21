@@ -1,42 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> eStratEx 2014R7 release. &middot; Born2Code musings  </title>
-	
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/reset.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/text.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/color.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/layout.css">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abualsamid.github.io//apple-touch-icon-144-precomposed.png">
-	<link rel="shortcut icon" href="http://abualsamid.github.io//favicon.ico">
-	
-	<link href="" rel="alternate" type="application/rss+xml" title="Born2Code musings " />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<body>
-		<header>
-  <h1><a href="http://abualsamid.github.io/">Born2Code musings </a></h1>
-  <p></p>
-</header>
+    <title>eStratEx 2014R7 release.</title>
 
-		<nav>
-	<ul>
-	
-</ul>
+    
+    <link href="http://blog.abualsamid.com/css/bootstrap-theme.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://blog.abualsamid.com/css/HPstyles.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/hugofont.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.theme.default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://blog.abualsamid.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://blog.abualsamid.com/apple-touch-icon.png" />
+  </head>
 
-</nav>
+  <body>
 
-
-		<main>
-			<header>
-				<h1>eStratEx 2014R7 release.</h1>
-			</header>
-			
-			<article>
-				<p>The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.</p>
+<p>The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.</p>
 
 <p>As you may know the eStratEx stack is built on a MySQL back-end running on Ubuntu. We use Percona MySQL and not just because Percona is a client, as we used them before they became a client, but because of its superior performance.</p>
 
@@ -55,14 +42,65 @@
 
 <p>cross posted on stratex.com/blog</p>
 
-			</article>
-			<footer>
-				<p><span id="footer-copyright"></span><span id="footer-license"></span></p>
-			</footer>
-		</main>
-		<footer>
-  <p></p>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
-	</body>
+
+
+
+<script src="http://blog.abualsamid.com/js/jquery-2.1.1.min.js"></script>
+<script src="http://blog.abualsamid.com/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
 </html>
+

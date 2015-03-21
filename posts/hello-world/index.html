@@ -1,42 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> To Node or to Go &middot; Born2Code musings  </title>
-	
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/reset.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/text.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/color.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/layout.css">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abualsamid.github.io//apple-touch-icon-144-precomposed.png">
-	<link rel="shortcut icon" href="http://abualsamid.github.io//favicon.ico">
-	
-	<link href="" rel="alternate" type="application/rss+xml" title="Born2Code musings " />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<body>
-		<header>
-  <h1><a href="http://abualsamid.github.io/">Born2Code musings </a></h1>
-  <p></p>
-</header>
+    <title>To Node or to Go</title>
 
-		<nav>
-	<ul>
-	
-</ul>
+    
+    <link href="http://blog.abualsamid.com/css/bootstrap-theme.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://blog.abualsamid.com/css/HPstyles.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/hugofont.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.theme.default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://blog.abualsamid.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://blog.abualsamid.com/apple-touch-icon.png" />
+  </head>
 
-</nav>
+  <body>
 
-
-		<main>
-			<header>
-				<h1>To Node or to Go</h1>
-			</header>
-			
-			<article>
-				<p>The recent news of <a href="http://www.wired.com/2014/12/io-js/">trouble in node</a> land is unsettling. Nodejs is am amazing technology with a big following. Companies such as Linked-In bought into it from the early beginning. Microsoft is making it a first class citizen in the Visual Studio eco system. AWS just launched a new <a href="http://aws.amazon.com/lambda/">service</a> based on node, and has a great sdk for it. <a href="http://www.joyent.com/">Joyent</a> has embraced it from the get go and is now the corporate sponsor.  This is just a small set of nodejs related projects and companies, the list is huge.</p>
+<p>The recent news of <a href="http://www.wired.com/2014/12/io-js/">trouble in node</a> land is unsettling. Nodejs is am amazing technology with a big following. Companies such as Linked-In bought into it from the early beginning. Microsoft is making it a first class citizen in the Visual Studio eco system. AWS just launched a new <a href="http://aws.amazon.com/lambda/">service</a> based on node, and has a great sdk for it. <a href="http://www.joyent.com/">Joyent</a> has embraced it from the get go and is now the corporate sponsor.  This is just a small set of nodejs related projects and companies, the list is huge.</p>
 
 <p>We use nodejs for our home grown development tracking and management system and we are currently in the process of building out micro services to support our ever growing <a href="http://www.estratex.com/">SaaS offering</a>. Up till now the plan was to build out those micro services in nodejs. Now, being micro services, they do not really need to be all written in a single language. Especially those days with <a href="https://www.docker.com/">Docker</a> taking over the world, it is very easy to develop different services in different technologies.</p>
 
@@ -50,14 +37,65 @@
 
 <p>cross blogged on <a href="http://stratex.com/blog">stratex.com/blog</a></p>
 
-			</article>
-			<footer>
-				<p><span id="footer-copyright"></span><span id="footer-license"></span></p>
-			</footer>
-		</main>
-		<footer>
-  <p></p>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
-	</body>
+
+
+
+<script src="http://blog.abualsamid.com/js/jquery-2.1.1.min.js"></script>
+<script src="http://blog.abualsamid.com/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
 </html>
+

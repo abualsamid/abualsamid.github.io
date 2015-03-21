@@ -1,42 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<title> Zero Friction &middot; Born2Code musings  </title>
-	
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/reset.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/text.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/color.css">
-	<link rel="stylesheet" href="http://abualsamid.github.io//css/layout.css">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abualsamid.github.io//apple-touch-icon-144-precomposed.png">
-	<link rel="shortcut icon" href="http://abualsamid.github.io//favicon.ico">
-	
-	<link href="" rel="alternate" type="application/rss+xml" title="Born2Code musings " />
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<body>
-		<header>
-  <h1><a href="http://abualsamid.github.io/">Born2Code musings </a></h1>
-  <p></p>
-</header>
+    <title>Zero Friction</title>
 
-		<nav>
-	<ul>
-	
-</ul>
+    
+    <link href="http://blog.abualsamid.com/css/bootstrap-theme.css" rel="stylesheet">
 
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    <link href="http://blog.abualsamid.com/css/HPstyles.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/hugofont.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://blog.abualsamid.com/css/owl.theme.default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://blog.abualsamid.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://blog.abualsamid.com/apple-touch-icon.png" />
+  </head>
 
-</nav>
+  <body>
 
-
-		<main>
-			<header>
-				<h1>Zero Friction</h1>
-			</header>
-			
-			<article>
-				<p>I have been thinking lately about how to quantify what differentiates my company and offering from competitors like ADP and zenefits.</p>
+<p>I have been thinking lately about how to quantify what differentiates my company and offering from competitors like ADP and zenefits.</p>
 
 <p>There are the obvious answers, we have a complete, integrated, single-database, single-system, end to end solution. We have, according to our clients, the best personable customer service. We have, in my view, the best software application in the industry. This is all good, but not enough. I mean I hope everybody in our industry strives to have great customer service and continues to update and innovate on the software front. I would consider that a minimum baseline and not a distinguishing feature, not a company identity.</p>
 
@@ -60,14 +47,65 @@
 
 <p>Are we perfect? of course not. The minute we start thinking that we succeeded in delivering the zero friction experience is the minute we fail. We have a long way to go. We will always have a long way to go. We will never achieve perfection, but that will not deter us from always chasing it.</p>
 
-			</article>
-			<footer>
-				<p><span id="footer-copyright"></span><span id="footer-license"></span></p>
-			</footer>
-		</main>
-		<footer>
-  <p></p>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="list-inline">
+            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
+            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
+        </ul>
+        <hr>
+        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
-	</body>
+
+
+
+<script src="http://blog.abualsamid.com/js/jquery-2.1.1.min.js"></script>
+<script src="http://blog.abualsamid.com/js/owl.carousel.min.js"></script>
+
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
 </html>
+
