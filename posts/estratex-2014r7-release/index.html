@@ -2,28 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>eStratEx 2014R7 release.</title>
-
-    
-    <link href="http://blog.abualsamid.com/css/bootstrap-theme.css" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    
-    <link href="http://blog.abualsamid.com/css/HPstyles.css" rel="stylesheet">
-    <link href="http://blog.abualsamid.com/css/hugofont.css" rel="stylesheet">
-    <link href="http://blog.abualsamid.com/css/owl.carousel.css" rel="stylesheet">
-    <link href="http://blog.abualsamid.com/css/owl.theme.default.css" rel="stylesheet">
-    <link rel="shortcut icon" href="http://blog.abualsamid.com/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="http://blog.abualsamid.com/apple-touch-icon.png" />
+    <title>Born2Code musings </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="http://blog.abualsamid.com/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="http://blog.abualsamid.com/css/hugo-bootswatch.css">
   </head>
-
   <body>
 
-<p>The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.</p>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://blog.abualsamid.com/" class="navbar-brand">Born2Code musings </a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="sections">Sections<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+              
+                <li><a href="http://blog.abualsamid.com/posts">posts</a></li>
+              
+              </ul>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <h1><a href="http://blog.abualsamid.com/posts/estratex-2014r7-release/">eStratEx 2014R7 release.</a></h1>
+        <span class="lead">Sat, Dec 13, 2014</span>
+        <div class="post">
+            <p>The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.</p>
 
 <p>As you may know the eStratEx stack is built on a MySQL back-end running on Ubuntu. We use Percona MySQL and not just because Percona is a client, as we used them before they became a client, but because of its superior performance.</p>
 
@@ -42,65 +59,32 @@
 
 <p>cross posted on stratex.com/blog</p>
 
+        </div>
 
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <ul class="list-inline">
-            <li><a href="http://twitter.com/spf13" class="icon-twitter icon-2x"></a></li>
-            <li><a href="http://github.com/spf13/hugo" class="icon-octocat icon-2x"></a></li>
-        </ul>
-        <hr>
-        <p>Copyright &copy; Steve Francia 2013&ndash;2014</p>
-      </div>
-    </div>
-  </div>
-</footer>
+              <footer>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://gohugo.io">Hugo</a></li>
+                <li><a href="http://bootswatch.com">Bootswatch</a></li>
+                <li><a href="http://getbootstrap.com">Bootstrap</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="pull-right"><a href="#top">Back to top</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </footer>
 
-
-
-
-<script src="http://blog.abualsamid.com/js/jquery-2.1.1.min.js"></script>
-<script src="http://blog.abualsamid.com/js/owl.carousel.min.js"></script>
-
-<script>
-$(function() {
-$('a[href*=#]:not([href=#])').click(function() {
-  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-      || location.hostname == this.hostname) {
-
-    var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    if (target.length) {
-      $('html,body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-      return false;
-    }
-  }
-});
-});
-$('.owl-carousel').owlCarousel({
-loop:true,
-margin:10,
-nav:true,
-autoplay:true,
-autoplayHoverPause:true,
-autoplayTimeout:3000,
-responsive:{
-    0:{
-        items:1
-    },
-    1000:{
-        items:3
-    },
-}
-})
-</script>
-
-
-</body>
-
+ 
+     </div>
+     
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://blog.abualsamid.com/js/bootstrap.min.js"></script>
+        <script src="http://blog.abualsamid.com/js/bootswatch.js"></script>
+    </body>
 </html>
+
 
