@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gae on Born2Code musings</title>
-    <link>http://abualsamid.com/tags/gae/</link>
+    <link>http://blog.abualsamid.com/tags/gae/</link>
     <description>Recent content in Gae on Born2Code musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>ahmad@abualsamid.com (born2code)</webMaster>
     <copyright> (c) 2016 Abualsamid</copyright>
     <lastBuildDate>Sun, 21 Dec 2014 21:45:18 +0000</lastBuildDate>
-    <atom:link href="http://abualsamid.com/tags/gae/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.abualsamid.com/tags/gae/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Google App Engine, AngularJS and Go</title>
-      <link>http://abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</link>
+      <link>http://blog.abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</link>
       <pubDate>Sun, 21 Dec 2014 21:45:18 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</guid>
       <description>&lt;p&gt;I am an AWS fanboy, a member of the Amazon Partner Network, certified AWS architect, certified AWS developer and most importantly run a multi-million business on AWS. I try to keep up with everything new from AWS, attend every re:Invent and try out most new things while they are still in preview.&lt;/p&gt;
 
 &lt;p&gt;None the less, all those cool podcasts from &lt;a href=&#34;https://twitter.com/shanselman&#34;&gt;Scott Hanselman&lt;/a&gt; about easy deployments to the Azure Platform as a Service piqued my curiosity. He whips together few lines of code and then uses cli tools to fire up an Azure app. So I wanted to try few things out for myself. I have been wanting to write an AngularJS app for a while. Recently I have mentioned wanting to possibly switch from Node for our ancillary projects to Go. So why not write a Go+Angular app and deploy it on a PaaS provider to get a feel for how all those things work together.&lt;/p&gt;
