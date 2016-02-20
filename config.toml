@@ -1,0 +1,34 @@
+
+baseurl = "http://abualsamid.com"
+title = "Born2Code musings"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+category = "categories"
+languageCode = "en-us"
+
+copyright = " (c) 2016 Abualsamid"
+
+language = "en-EN"
+
+theme = "hugo-bootstrap"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# Enable Disqus integration
+#disqusShortname = "your_disqus_shortname"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "born2code"
+    email = "ahmad@abualsamid.com"
+
