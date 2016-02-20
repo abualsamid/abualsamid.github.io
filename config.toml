@@ -1,5 +1,6 @@
 
 baseurl = "http://blog.abualsamid.com"
+#baseurl = "http://abualsamid-blog.s3-website-us-west-2.amazonaws.com"
 title = "Born2Code musings"
 contentdir = "content"
 layoutdir = "layouts"
