@@ -1,5 +1,5 @@
 
-baseurl = "http://abualsamid.com"
+baseurl = "http://blog.abualsamid.com"
 title = "Born2Code musings"
 contentdir = "content"
 layoutdir = "layouts"

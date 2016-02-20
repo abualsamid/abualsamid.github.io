@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Born2Code musings</title>
-    <link>http://abualsamid.com/</link>
+    <link>http://blog.abualsamid.com/</link>
     <description>Recent content on Born2Code musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>ahmad@abualsamid.com (born2code)</webMaster>
     <copyright> (c) 2016 Abualsamid</copyright>
     <lastBuildDate>Wed, 28 Jan 2015 14:39:17 +0000</lastBuildDate>
-    <atom:link href="http://abualsamid.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.abualsamid.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Zero Friction</title>
-      <link>http://abualsamid.com/2015/01/28/zero-friction/</link>
+      <link>http://blog.abualsamid.com/2015/01/28/zero-friction/</link>
       <pubDate>Wed, 28 Jan 2015 14:39:17 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2015/01/28/zero-friction/</guid>
+      <guid>http://blog.abualsamid.com/2015/01/28/zero-friction/</guid>
       <description>&lt;p&gt;I have been thinking lately about how to quantify what differentiates my company and offering from competitors like ADP and zenefits.&lt;/p&gt;
 
 &lt;p&gt;There are the obvious answers, we have a complete, integrated, single-database, single-system, end to end solution. We have, according to our clients, the best personable customer service. We have, in my view, the best software application in the industry. This is all good, but not enough. I mean I hope everybody in our industry strives to have great customer service and continues to update and innovate on the software front. I would consider that a minimum baseline and not a distinguishing feature, not a company identity.&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Google App Engine, AngularJS and Go</title>
-      <link>http://abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</link>
+      <link>http://blog.abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</link>
       <pubDate>Sun, 21 Dec 2014 21:45:18 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/21/google-app-engine-angularjs-and-go/</guid>
       <description>&lt;p&gt;I am an AWS fanboy, a member of the Amazon Partner Network, certified AWS architect, certified AWS developer and most importantly run a multi-million business on AWS. I try to keep up with everything new from AWS, attend every re:Invent and try out most new things while they are still in preview.&lt;/p&gt;
 
 &lt;p&gt;None the less, all those cool podcasts from &lt;a href=&#34;https://twitter.com/shanselman&#34;&gt;Scott Hanselman&lt;/a&gt; about easy deployments to the Azure Platform as a Service piqued my curiosity. He whips together few lines of code and then uses cli tools to fire up an Azure app. So I wanted to try few things out for myself. I have been wanting to write an AngularJS app for a while. Recently I have mentioned wanting to possibly switch from Node for our ancillary projects to Go. So why not write a Go+Angular app and deploy it on a PaaS provider to get a feel for how all those things work together.&lt;/p&gt;
@@ -217,10 +217,10 @@ mime_type: text/javascript; charset=utf-8
     
     <item>
       <title>Out with the Old</title>
-      <link>http://abualsamid.com/2014/12/18/out-with-the-old/</link>
+      <link>http://blog.abualsamid.com/2014/12/18/out-with-the-old/</link>
       <pubDate>Thu, 18 Dec 2014 01:22:38 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/18/out-with-the-old/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/18/out-with-the-old/</guid>
       <description>&lt;p&gt;Growing up a nerd in the Middle East I was fond of two things: Soccer and Reading. As a pre-teen I read all the time, I had a book in my hand in the car, walking home from school, in bed, eating dinner, in class — hidden inside my textbooks —, and on the soccer field; so i can read a little bit while the ball was on the other side of the field.&lt;/p&gt;
 
 &lt;p&gt;It was not really a field, more like a sandy gray space, and there was no soccer ball. Most of the time it was an empty can of pepsi. Sometimes it was a bunch of old socks rolled up together. When we got lucky we played with a left over tennis ball. It did not matter, we chased after it, and when it was beyond my reach, i just flipped open my book and continued reading. I read anything I can lay my hands on, history, fiction, comics… Around the age of nine my dad bought an encyclopedia, so at home, I started reading the encyclopedia whenever I could.&lt;/p&gt;
@@ -245,10 +245,10 @@ mime_type: text/javascript; charset=utf-8
     
     <item>
       <title>eStratEx 2014R7 release.</title>
-      <link>http://abualsamid.com/2014/12/13/estratex-2014r7-release/</link>
+      <link>http://blog.abualsamid.com/2014/12/13/estratex-2014r7-release/</link>
       <pubDate>Sat, 13 Dec 2014 22:31:22 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/13/estratex-2014r7-release/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/13/estratex-2014r7-release/</guid>
       <description>&lt;p&gt;The 2014R7 release of our flagship software has been released last night. As our users know, we release in place, with no down time and no interruptions. There has been nearly 50 items in this release, those impacting the end user are detailed in the release notes. We will have a separate blog post describing some of the functional changes in this release but I wanted to touch on some of the technical changes today.&lt;/p&gt;
 
 &lt;p&gt;As you may know the eStratEx stack is built on a MySQL back-end running on Ubuntu. We use Percona MySQL and not just because Percona is a client, as we used them before they became a client, but because of its superior performance.&lt;/p&gt;
@@ -271,10 +271,10 @@ mime_type: text/javascript; charset=utf-8
     
     <item>
       <title>Our StratEx Family</title>
-      <link>http://abualsamid.com/2014/12/12/our-stratex-family/</link>
+      <link>http://blog.abualsamid.com/2014/12/12/our-stratex-family/</link>
       <pubDate>Fri, 12 Dec 2014 01:16:16 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/12/our-stratex-family/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/12/our-stratex-family/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/B4nGk0PIMAE5yJq.jpg&#34;&gt;&lt;img src=&#34;http://blog.abualsamid.com/wp-content/uploads/2014/12/B4nGk0PIMAE5yJq-300x225.jpg&#34; alt=&#34;B4nGk0PIMAE5yJq&#34; /&gt;&lt;/a&gt; Our &lt;a href=&#34;http://stratex.com&#34;&gt;StratEx&lt;/a&gt; family is spread out over half a dozen offices in six states. As such, we do not always get to see each other. Thus we make it a tradition that once a year everybody in the StratEx family gets together at our flagship office on beautiful Michigan Avenue for our annual Holiday Party.&lt;/p&gt;
 
 &lt;p&gt;The office sits on the 28th floor in a skyscraper in the middle of Michigan Avenue. The first skyscraper was built in Chicago after all, so it is apropos that we pay homage to our hometown and reside in one. The views are majestic day or night, overlooking the endless Lake Michigan or the car lights fading, seemingly endlessly, into the night. It is all gorgeous.&lt;/p&gt;
@@ -291,10 +291,10 @@ mime_type: text/javascript; charset=utf-8
     
     <item>
       <title>To Node or to Go</title>
-      <link>http://abualsamid.com/2014/12/11/hello-world/</link>
+      <link>http://blog.abualsamid.com/2014/12/11/hello-world/</link>
       <pubDate>Thu, 11 Dec 2014 01:20:02 +0000</pubDate>
       <author>ahmad@abualsamid.com (born2code)</author>
-      <guid>http://abualsamid.com/2014/12/11/hello-world/</guid>
+      <guid>http://blog.abualsamid.com/2014/12/11/hello-world/</guid>
       <description>&lt;p&gt;The recent news of &lt;a href=&#34;http://www.wired.com/2014/12/io-js/&#34;&gt;trouble in node&lt;/a&gt; land is unsettling. Nodejs is am amazing technology with a big following. Companies such as Linked-In bought into it from the early beginning. Microsoft is making it a first class citizen in the Visual Studio eco system. AWS just launched a new &lt;a href=&#34;http://aws.amazon.com/lambda/&#34;&gt;service&lt;/a&gt; based on node, and has a great sdk for it. &lt;a href=&#34;http://www.joyent.com/&#34;&gt;Joyent&lt;/a&gt; has embraced it from the get go and is now the corporate sponsor.  This is just a small set of nodejs related projects and companies, the list is huge.&lt;/p&gt;
 
 &lt;p&gt;We use nodejs for our home grown development tracking and management system and we are currently in the process of building out micro services to support our ever growing &lt;a href=&#34;http://www.estratex.com/&#34;&gt;SaaS offering&lt;/a&gt;. Up till now the plan was to build out those micro services in nodejs. Now, being micro services, they do not really need to be all written in a single language. Especially those days with &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt; taking over the world, it is very easy to develop different services in different technologies.&lt;/p&gt;
