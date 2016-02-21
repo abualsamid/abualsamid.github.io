@@ -14,7 +14,7 @@ There are the obvious answers, we have a complete, integrated, single-database, 
 
 While I am pondering those thoughts in my head I saw a beautiful UltraHD 70" Vizio t.v. at Costco, selling for a good price.
 
-[caption id="attachment_28" align="alignnone" width="300"][![my gorgeous t.v.](http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-1-300x225.jpg)](http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-1.jpg) my beautiful new t.v.[/caption]
+[caption id="attachment_28" align="alignnone" width="300"][![my gorgeous t.v.](images/FullSizeRender-1-300x225.jpg)](images/FullSizeRender-1.jpg) my beautiful new t.v.[/caption]
 
 
 
@@ -22,7 +22,7 @@ I went home and found out that Costco.com had a special on it for $500. The init
 
 Then when I was setting it up, I saw that it came with two bags of screws, each with four screws, identical color, almost identical size and look. The screws are used to assemble the stand and to attach the stand to the back of the t.v.  One set was used to assemble the stand and the other set to attach it to the t.v.
 
-[![screws](http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender-300x225.jpg)](http://blog.abualsamid.com/wp-content/uploads/2015/01/FullSizeRender.jpg)
+[![screws](images/FullSizeRender-300x225.jpg)](images/FullSizeRender.jpg)
 
 
 
