@@ -13,7 +13,7 @@ relativeurls = true
 copyright = " (c) 2016 Abualsamid"
 
 
-theme = "hugo-bootstrap"
+theme = "hyde-x"
 
 # Pagination
 paginate = 10
@@ -42,4 +42,4 @@ SectionPagesMenu = "main"
   footline = "code with <i class='fa fa-heart'></li>"
   twitter = "http://twitter.com/born2code"
   github = "https://github.com/abualsamid"
-  gravatarHash = "http://www.gravatar.com/avatar/6d7b273512b621013346a866d80ffd30"
+  gravatarHash = "6d7b273512b621013346a866d80ffd30"
