@@ -13,7 +13,8 @@ relativeurls = true
 copyright = " (c) 2016 Abualsamid"
 
 
-theme = "hyde-x"
+#theme = "hyde-x"
+theme = "bootstrap"
 
 # Pagination
 paginate = 10
@@ -43,3 +44,4 @@ SectionPagesMenu = "main"
   twitter = "http://twitter.com/born2code"
   github = "https://github.com/abualsamid"
   gravatarHash = "6d7b273512b621013346a866d80ffd30"
+  # theme = "theme-base-08"
