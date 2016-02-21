@@ -10,7 +10,7 @@ categories:
 - StratEx
 ---
 
-[![B4nGk0PIMAE5yJq](images/B4nGk0PIMAE5yJq-300x225.jpg)](images/B4nGk0PIMAE5yJq.jpg) Our [StratEx](http://stratex.com) family is spread out over half a dozen offices in six states. As such, we do not always get to see each other. Thus we make it a tradition that once a year everybody in the StratEx family gets together at our flagship office on beautiful Michigan Avenue for our annual Holiday Party.
+[![B4nGk0PIMAE5yJq](/images/B4nGk0PIMAE5yJq-300x225.jpg)](/images/B4nGk0PIMAE5yJq.jpg) Our [StratEx](http://stratex.com) family is spread out over half a dozen offices in six states. As such, we do not always get to see each other. Thus we make it a tradition that once a year everybody in the StratEx family gets together at our flagship office on beautiful Michigan Avenue for our annual Holiday Party.
 
 The office sits on the 28th floor in a skyscraper in the middle of Michigan Avenue. The first skyscraper was built in Chicago after all, so it is apropos that we pay homage to our hometown and reside in one. The views are majestic day or night, overlooking the endless Lake Michigan or the car lights fading, seemingly endlessly, into the night. It is all gorgeous.
 

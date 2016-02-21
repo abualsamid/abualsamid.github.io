@@ -1,5 +1,5 @@
 
-baseurl = "http://blog.abualsamid.com"
+baseurl = "http://abualsamid.com"
 #baseurl = "http://abualsamid-blog.s3-website-us-west-2.amazonaws.com"
 title = "Born2Code musings"
 contentdir = "content"
@@ -7,10 +7,12 @@ layoutdir = "layouts"
 publishdir = "public"
 category = "categories"
 languageCode = "en-us"
+language = "en-EN"
+canonifyurls = true
+relativeurls = true
 
 copyright = " (c) 2016 Abualsamid"
 
-language = "en-EN"
 
 theme = "hugo-bootstrap"
 
@@ -33,3 +35,6 @@ paginatePath = "page"
     name = "born2code"
     email = "ahmad@abualsamid.com"
 
+[params]
+  brand = "born2code"
+  footline = "code with <i class='fa fa-heart'></li>"
