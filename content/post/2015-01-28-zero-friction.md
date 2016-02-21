@@ -5,7 +5,6 @@
   "tags" : ["frictionless", "payroll", "eStratEx"],
   "date" : "2015-01-28 14:39:17+00:00",
   "comments": false,
-  "description": "what differentiates us?",
   "categories": ["character", "service", "payroll"]
 }
 

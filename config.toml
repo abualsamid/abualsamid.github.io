@@ -8,7 +8,6 @@ publishdir = "public"
 category = "categories"
 languageCode = "en-us"
 language = "en-EN"
-canonifyurls = true
 relativeurls = true
 
 copyright = " (c) 2016 Abualsamid"
@@ -37,4 +36,7 @@ paginatePath = "page"
 
 [params]
   brand = "born2code"
+  topline = "be good at getting better"
   footline = "code with <i class='fa fa-heart'></li>"
+  twitter = "born2code"
+  github = "abualsamid"
