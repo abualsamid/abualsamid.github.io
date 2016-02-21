@@ -19,6 +19,8 @@ theme = "hugo-bootstrap"
 paginate = 10
 paginatePath = "page"
 
+SectionPagesMenu = "main"
+
 # Enable Disqus integration
 #disqusShortname = "your_disqus_shortname"
 
@@ -38,5 +40,6 @@ paginatePath = "page"
   brand = "born2code"
   topline = "be good at getting better"
   footline = "code with <i class='fa fa-heart'></li>"
-  twitter = "born2code"
-  github = "abualsamid"
+  twitter = "http://twitter.com/born2code"
+  github = "https://github.com/abualsamid"
+  gravatarHash = "http://www.gravatar.com/avatar/6d7b273512b621013346a866d80ffd30"
